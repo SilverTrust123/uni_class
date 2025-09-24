@@ -1,7 +1,7 @@
-package B11221009;
+
 public  class Card{
     private  String face;
-    private String suit;
+    private  String suit;
 
     public Card(String cardFace,String cardSuit){
         this.face = cardFace;
@@ -22,5 +22,5 @@ public  class Card{
     public void setSuit(String cardString){
         this.suit = cardString;
     }
-    
+
 }

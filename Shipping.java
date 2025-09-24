@@ -1,4 +1,3 @@
-package B11221009;
 import Google.Map;
 public class Shipping{
     private String seller;
@@ -27,7 +26,8 @@ public class Shipping{
     }
     public int getShippingCost(){
         int cost;
-        int distance = Map.getDistance(Map.getLongitude(buyer,getAddress()),Map.getLatitude(buyer.getAddress()),Map.getLongitude(seller.getAddress()),Map.getLatitude(seller.getAddress()));
+        int distance = Map.getDistance(Map.getLongitude(buyer,getAddress()),Map.getLatitude(buyer.getAddress()),
+            Map.getLongitude(seller.getAddress()),Map.getLatitude(seller.getAddress()));
         if (distance < 0) {
             if (distance < 10) {
                 cost = 50;

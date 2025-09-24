@@ -1,4 +1,4 @@
-package B11221009;
+
 
 public class Rectangle {
 	private int width;

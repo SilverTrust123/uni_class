@@ -1,4 +1,3 @@
-package B11221009;
 import Google.Map;
 public  class Person{
     private String name;

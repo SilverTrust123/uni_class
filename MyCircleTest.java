@@ -6,7 +6,7 @@ public class MyCircleTest {
 
 	public static void main(String[] args) {
         MyCircle circle = new MyCircle(5.3);
-        circle.circleArea();
+        System.out.println(circleArea());
 	}
 
 }

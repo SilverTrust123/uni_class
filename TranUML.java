@@ -1,5 +1,3 @@
-package B11221009;
-
 public class TranUML {
     public static void main(String[] args) {
         int counter = 1;

@@ -1,4 +1,3 @@
-package B11221009;
 public class CrapsTest {
     public static void main(String[] args) {
         Craps crapsGame = new Craps();

@@ -12,8 +12,8 @@ public class MyCircle {
     public double getradius(){
         return radius;
     }
-    public void circleArea(){
+    public double circleArea(){
         double Area = radius*radius*PI;
-        System.out.println(Area);
+        return Area;
     }
 }

@@ -1,28 +1,21 @@
-package B11221009;
-
 public class TrianglePattern {
+    public static void main(String[] args) {
+        int rows = 4; // 三角形的行数
 
-	public static void main(String[] args) {
-		
-		 
-		        int n = 4;
+        // 外层循环控制行数
+        for (int i = 0; i < rows; i++) {
 
-		  
-		        for (int i = 0; i < n; i++) {
+            // 内层循环控制每一行中的空格
+            for (int j = 0; j < rows - i - 1; j++) {
+                System.out.print(" ");
+            }
 
-		            for (int j = 0; j < n - i - 1; j++) {
-		                System.out.print(" ");
-		            }
+            // 内层循环控制每一行中的星号
+            for (int k = 0; k < 2 * i + 1; k++) {
+                System.out.print("*");
+            }
 
-		            for (int k = 0; k < 2 * i + 1; k++) {
-		                System.out.print("*");
-		            }
-
-		            System.out.println();
-		        }
-		    
-		
-
-	}
-
+ 
+        }
+    }
 }

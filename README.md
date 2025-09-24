@@ -1,2 +1,2 @@
 # uni_class
-this for my self used
+java 大學 OOPA 部分
